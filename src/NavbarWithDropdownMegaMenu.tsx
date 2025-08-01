@@ -48,7 +48,6 @@ export function NavbarWithDropdownMegaMenu() {
               base: "fixed! left-1/2! w-full max-w-5xl -translate-x-1/2!", // it's not centered
             }}
             toggle="Company"
-            //style={{ left: "50%", transform: "translateX(-50%)" }} // doesnt work
           >
             <div className="mx-auto border-t px-0 py-4 text-gray-900 lg:px-4 xl:px-20 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
               There is a content for company mega menu
@@ -62,6 +61,7 @@ export function NavbarWithDropdownMegaMenu() {
               base: "w-full max-w-5xl", // it's not centered
             }}
             toggle="Marketing"
+            style={{ left: "50%", transform: "translateX(-50%)" }} // doesnt work
           >
             <div className="mx-auto border-t px-0 py-4 text-gray-900 lg:px-4 xl:px-20 dark:border-gray-600 dark:bg-gray-800 dark:text-white">
               There is a content for marketing mega menu
